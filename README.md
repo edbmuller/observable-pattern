@@ -1,5 +1,11 @@
-# observable-pattern
-Demos of the Observe pattern
+# Observable pattern
+[demos](https://duckduckgo.com)
+
+## Demo 1
+Implementation of the code snipet in the [Eduardo Rebelo's article](https://medium.com/@oieduardorabelo/padr%C3%B5es-em-js-observer-pattern-bff0ecc55d01)
+
+## Demo 2
+Adaptation to ES6 of the code snipet in the book [Learning JavaScript Design by Addy Osmani](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript)
 
 The Observer is a design pattern where an object (known as a subject) maintains a list of objects depending on it (observers),
 automaticaly notifying them of any changes to state and making actions based on that.
@@ -13,7 +19,7 @@ When we no longer wish for a particular observer to be notified of changes by th
 
 We can now expand on what we've learned to implement the Observer pattern with the following components:
 
-. Subject: maintains a list of observers, facilitates adding or removing observers
-. Observer: provides an update interface for objects that need to be notified of a Subject's changes of state
-. ConcreteSubject: broadcasts notifications to observers on changes of state, stores the state of ConcreteObservers
-. ConcreteObserver: stores a reference to the ConcreteSubject, implements an update interface for the Observer to ensure state is consistent with the Subject's
+. **Subject**: maintains a list of observers, facilitates adding or removing observers
+. **Observer**: provides an update interface for objects that need to be notified of a Subject's changes of state
+. **ConcreteSubject**: broadcasts notifications to observers on changes of state, stores the state of ConcreteObservers
+. **ConcreteObserver**: stores a reference to the ConcreteSubject, implements an update interface for the Observer to ensure state is consistent with the Subject's
