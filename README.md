@@ -1,5 +1,5 @@
 # Observable pattern
-[demos](https://duckduckgo.com)
+Demos: [https://edbmuller.github.io/observable-pattern/](https://edbmuller.github.io/observable-pattern/)
 
 ## Demo 1
 Implementation of the code snipet in the [Eduardo Rebelo's article](https://medium.com/@oieduardorabelo/padr%C3%B5es-em-js-observer-pattern-bff0ecc55d01)
