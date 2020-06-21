@@ -1,5 +1,5 @@
 # Observable pattern
-Demos: [https://edbmuller.github.io/observable-pattern/](https://edbmuller.github.io/observable-pattern/)
+Demos: [edbmuller.github.io/observable-pattern](https://edbmuller.github.io/observable-pattern/)
 
 ## Demo 1
 Implementation of the code snipet in the [Eduardo Rebelo's article](https://medium.com/@oieduardorabelo/padr%C3%B5es-em-js-observer-pattern-bff0ecc55d01)
@@ -19,7 +19,7 @@ When we no longer wish for a particular observer to be notified of changes by th
 
 We can now expand on what we've learned to implement the Observer pattern with the following components:
 
-. **Subject**: maintains a list of observers, facilitates adding or removing observers
-. **Observer**: provides an update interface for objects that need to be notified of a Subject's changes of state
-. **ConcreteSubject**: broadcasts notifications to observers on changes of state, stores the state of ConcreteObservers
-. **ConcreteObserver**: stores a reference to the ConcreteSubject, implements an update interface for the Observer to ensure state is consistent with the Subject's
+1. **Subject**: maintains a list of observers, facilitates adding or removing observers
+2. **Observer**: provides an update interface for objects that need to be notified of a Subject's changes of state
+3. **ConcreteSubject**: broadcasts notifications to observers on changes of state, stores the state of ConcreteObservers
+4. **ConcreteObserver**: stores a reference to the ConcreteSubject, implements an update interface for the Observer to ensure state is consistent with the Subject's
