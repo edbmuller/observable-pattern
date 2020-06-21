@@ -13,6 +13,19 @@ body {
   background-color: #faf9f9;
 }
 
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.demo1,
+.demo2 { width: 40%; }
+
+.demo2 {
+  display: grid;
+  grid-gap: 1em;
+}
+
 input {
   width: 100%;
   display: block;
